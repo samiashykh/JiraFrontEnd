@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.UserCreadentialsBase {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.usercredentialButtons {
+  /* border-style: none;
+  padding: 1%;
+  margin: 0.5rem 0.8rem;  
+  color: white;
+  font-size: 17px;
+  border-radius: 0.5rem;
+ 
+  box-shadow: 1.5px 4px 2px 2px rgba(112, 111, 111, 0.8);
+  background-color: rgb(76, 96, 182); */
+  cursor: pointer;
+  width: 20%;
+}
+
+.dashboard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dashboardmaindivP {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  margin-top: 0.8rem;
+}
+
+.dashboardmaindivPS {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5rem;
+}
+
+.dashboardmaindivPF {
+  width: 50%;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.dashboardmaindivPSItem {
+  width: fit-content;
+  margin: 0rem 0.5rem;
+}
+
+.dashboardmaindivPSItemButton {
+  width: fit-content;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 15px;
+  padding: 0.3rem 0.5rem;
+  background-color: #d6dce7;
+  display: flex;
+  align-items: center;
+}
+
+.dashboardmaindivPSItemButton:hover {
+  background-color: #6987ba;
+}
+
+.Dash {
+  height: 5rem;
+  width: 20%;
+}
+
+.dashboardmaindiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dashboardmaindivF,
+.dashboardmaindivS {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+
+.dashboardmaindivF {
+  margin-left: 0.5rem;
+}
+
+.dashboardmaindivS {
+  margin-right: 0.5rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper1 {
+  margin-top: 0.5rem;
+  display: flex;
+}
+
+.Intro {
+  width: 30%;
+  height: fit-content;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+
+
+}
+
+.Introimg {
+  width: 85%;
+  border-radius: 10%;
+  box-shadow: 4px -5px 5px #2684ff;
+}
+
+
+.ActivityProject {
+  width: 40px;
+  height: 40px;
+  border-radius: 5rem;
+  margin-right: 10px;
+  background-color: #6987ba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProjectName {
+  width: 50%;
+  height: fit-content;
+  font-weight: 500;
+}
+
+.ProjectLead {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ProjectDetails {
+  width: 50%;
+  height: fit-content;
+
+}
+
+.ComapnyName {
+  width: 100%;
+  height: fit-content;
+  font-weight: 500;
+}
+
+.ProjectIcons {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  justify-content: end;
+}
+
+
+.dashboardmaindivFSubA,
+.dashboardmaindivFSubB,
+.dashboardmaindivSSubA,
+.dashboardmaindivSSubB {
+  width: 95%;
+  padding: 1rem;
+  border: 1px solid;
+  border-color: aquamarine;
+  padding: 10px;
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  box-shadow: 0px -3px #2684ff;
+}
+
+.dashboadH3 {
+  margin-left: 1.5rem;
+}
+
+.NavCom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavF {
+  width: 40%;
+}
+
+.NavS {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NacIcon {
+  margin: 0.2rem;
+}
+
+.h5 {
+  display: inline;
+  font-size: 0.83em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.GitHubNavBarTMost {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.GitHubNavBar {
+  width: 98.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  box-shadow: 0px 1px #2684ff;
+}
+
+.Jira {
+  height: fit-content;
+  width: 15%;
+}
+
+
+.GitHubNavBarF {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  /* gap: 2px; */
+  /* padding: 30px; */
+}
+
+.navsoptions {
+  width: fit-content;
+  margin: 0rem 0.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.4rem;
+}
+.navsoptions:hover{
+  border-radius: 0.2rem;
+  color: #0056ffe6;
+  background-color: rgb(212 226 254 / 90%);
+  /* box-shadow: 0.5px 1.5px 7.5px rgb(0 86 255 / 90%); */
+}
+
+.navbtn {
+  color: white;
+  background-color: #2684ff;
+  height: 30px;
+  width: fit-content;
+  margin: 20px;
+  border: none;
+  border-radius: 0.3rem;
+
+}
+
+.user {
+  width: 60px;
+  height: 50px;
+  margin: 0rem 0.5rem;
+}
+
+.usercredentialInput {
+  margin: 0rem 0.6rem;
+  border-style: double;
+  height: 1.2rem;
+  width: 32%;
+  color: black;
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.usercredentialInput:hover {
+  border-style: groove;
+  border: 0.5rem;
+  box-shadow: 0.5px 1.5px 7.5px rgb(0 86 255 / 90%);
+}
+
+.usercredentialInput:focus-visible {
+  outline: transparent;
+  padding-left: 0.3rem;
+}
+
+.UserName {
+  margin-top: 23px;
+}
+
+.SearchBtn {
+  color: #2684ff;
+  background-color: transparent;
+  height: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0.5rem 0rem;
+  /* border: none; */
+  border-radius: 0.2rem;
+  margin-left: 0.5rem;
+  border-top-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  border-bottom-color: #2684ff;
+  border-bottom-left-radius: 0.3rem;
+
+  /* border-color: #2684ff; */
+}
+
+.SearchBtn:hover{
+  color: white;
+  background-color: #2684ff;
+  border-bottom-left-radius: none;
+  border-bottom-color:transparent;
+}
+
+.GitHubNavBarS {
+  /* width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; */
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.displayEmail {
+  position: relative;
+  width: auto;
+  z-index: -1;
+  top: -35.3rem;
+  left: 36rem;
+}
